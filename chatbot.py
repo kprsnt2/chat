@@ -8,7 +8,7 @@ import openai
 
 openai.api_key = os.getenv('OPENAI_API_KEY')
 
-st.title("Chatbot : ChatGPT and Streamlit Chat")
+st.title("Chatbot : Chatting with the GPT bot")
 st.subheader("AI Tutor:")
 
 model = st.selectbox(
